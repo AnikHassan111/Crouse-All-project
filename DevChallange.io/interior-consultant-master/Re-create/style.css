@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #181719;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5vw;
+    padding-top: 46px;
+    align-items: center;
+}
+
+.logo h4 {
+    border: 2px solid white;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.navvar {
+    display: flex;
+    gap: 4vw;
+
+}
+
+.navvar li {
+    list-style: none;
+}
+
+.navvar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.home {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+/* Banner Section */
+
+.banner_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5vw;
+    align-items: center;
+    margin-top: 50px;
+}
+.content h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.content p {
+    color: #FFF;
+    font-size: 24px;
+    width: 410px;
+    margin: 1.4vw 0px;
+}
+
+.content p strong {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.image img {
+    width: 40vw;
+    
+}
+.image{
+    position: relative;
+}
+
+.profile {
+    width: 19vw;
+    background: #181719;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px 26px;
+    position: absolute;
+    right: 40px;
+    bottom: -86px;
+}
+
+.profile_image {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile_image .img {
+    width: 4vw;
+    height: 4vw;
+    background-image: url(image/photo2.png);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.user_name h4 {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user_name p {
+    color: var(--gray-3, #828282);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.profile h2 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navvar {
+        margin-top: 20px;
+    }
+    .banner_container{
+        flex-direction: column;
+        margin: 0;
+    }
+    .image img{
+        width: 365px;
+        margin-left: 15px;
+    }
+    .profile{
+        width: 65vw;
+        right: 16px;
+        bottom: -78px;
+    }
+    .content{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .content h1{
+        font-size: 36px;
+    }
+    .content p{
+        width: 346px;
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+}
