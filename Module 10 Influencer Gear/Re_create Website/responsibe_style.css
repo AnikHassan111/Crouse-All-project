@@ -1,0 +1,117 @@
+/* Tablet Screen */
+
+@media screen and (max-width:960px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        margin: 20px 12px;
+    }
+    .banner_Section{
+        flex-direction: column-reverse;
+     }
+     .company_name_section{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+     }
+     .featured_section_container{
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin-bottom: 22px;
+     }
+     .featured_section_container{
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin-bottom: 22px;
+     }
+     .featured_section_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+     }
+     .featured_section_image img{
+        width: 100%;
+     }
+}
+
+/* Mobile Screen */
+
+@media screen and (max-width:576px) {
+
+
+    /* Shared Style Start */
+
+    main{
+        margin: 0px 12px;
+    }
+
+    /* Shared Style End */
+
+    /* Header Section Start*/
+
+    header{
+        margin: 20px 12px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav_list ul{
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    /* Header Section End*/
+
+
+     /* Banner Section Start  */
+     .banner_Section{
+        gap: 36px;
+     }
+     .banner_section_img img{
+        width: 100%;
+     }
+     .banner_Section{
+        flex-direction: column-reverse;
+     }
+     .banner_section_content{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+     }
+     /* Banner Section End  */
+
+     /* Company Name Section Start*/
+     
+     .company_name_section{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+     }
+     /* Company Name Section End*/
+
+     /* Featured Section Start */
+
+     .featured_section_container{
+        flex-direction: column-reverse;
+        gap: 20px;
+        margin-bottom: 22px;
+     }
+     .featured_section_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+     }
+     .featured_section_image img{
+        width: 100%;
+     }
+
+     /* Featured Section End */
+}
